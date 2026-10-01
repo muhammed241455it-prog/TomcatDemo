@@ -1,4 +1,5 @@
 pipeline {
+
     agent any
 
     stages {
@@ -21,6 +22,7 @@ pipeline {
                 bat 'mvn package'
             }
         }
+
     }
 
     post {
