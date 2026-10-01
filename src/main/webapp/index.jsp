@@ -300,7 +300,7 @@
                 <strong>YEAR</strong>
 
                 <span>
-                    Second Year
+                    third Year
                 </span>
 
             </div>
@@ -311,7 +311,7 @@
                 <strong>SEMESTER</strong>
 
                 <span>
-                    IV
+                    V
                 </span>
 
             </div>
