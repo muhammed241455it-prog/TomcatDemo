@@ -13,13 +13,13 @@ pipeline {
 
         stage('Clean Project') {
             steps {
-                bat 'mvn clean'
+                bat '"C:/Users/dell/Downloads/apache-maven-3.9.16-bin/apache-maven-3.9.16/bin/mvn.cmd" clean'
             }
         }
 
         stage('Build Project') {
             steps {
-                bat 'mvn package'
+                bat '"C:/Users/dell/Downloads/apache-maven-3.9.16-bin/apache-maven-3.9.16/bin/mvn.cmd" package'
             }
         }
 
